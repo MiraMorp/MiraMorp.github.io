@@ -1,0 +1,30 @@
+body {
+  background-image: url(avocadobg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  margin: 100px auto;
+}
+
+.jumbotron {
+  background-color: rgba(159, 174, 136, 0.2)
+}
+
+.jumbotron > h1, p {
+  text-align: center;
+}
+
+.btn-lg {
+  background-color: #417213;
+  border-color: #417213;
+  padding: 1rem 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #8EBF5F;
+  border-color: #8EBF5F;
+  border-width: 5px;
+  cursor: pointer;
+}
